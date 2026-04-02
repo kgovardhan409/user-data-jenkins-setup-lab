@@ -7,4 +7,6 @@ resource "aws_instance" "demo" {
   tags = {
     Name = "user-data-jenkins-setup-lab"
   }
+
+
 }
